@@ -1,0 +1,58 @@
+
+.contact{
+    width: 80%;
+    background-image: linear-gradient(to bottom right, #6666ff, #0000cc);
+    margin: auto;
+    border-radius: 12px;
+    margin-top: 33px;
+    padding: 18px;
+    text-align: center;
+    box-shadow: black 0px 0px 193px;
+
+}
+.contact h1{
+    font-size: xx-large;
+}
+.contact p{
+    margin: 12px 14px;
+    line-height: 24px;
+
+}
+
+form{
+    position: relative;
+}
+
+
+input, select,textarea{
+    margin-bottom: 14px;
+    height: 4rem;
+    width: 90%;
+    border-radius: 6px;
+    padding-left: 5px;
+    
+}
+
+.button h1{
+    font-size: x-large;
+    color: white;
+    padding: 6px;
+   
+    
+
+}
+.button {
+    
+    background-image: linear-gradient(to right, #00e600 , #009900);
+    border-radius: 7px;
+    width: 90%;
+    margin: auto;
+   
+}
+.hr p{
+    text-align: center;
+    font-size: 19px;
+}
+form .rip{
+    text-align: center;
+}
