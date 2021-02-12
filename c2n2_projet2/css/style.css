@@ -43,7 +43,7 @@ body{
     /* margin: auto; */
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content:space-around;;
     align-items: center;
     justify-content: space-evenly;
     margin-left: 1rem;
@@ -74,6 +74,64 @@ body{
 .header__bottom{
     margin-top: 8.8rem;
     opacity: .6;
+}
+
+
+/* page main */
+.main__top{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-top: 5%;
+
+}
+
+.main__image{
+    width: 50%;
+    margin-left: -25px;
+    overflow: hidden;
+}
+
+.main__text{
+    width: 40%;
+}
+
+.main__title{
+    width: 70%;
+    opacity: .7;
+    margin-top: 5%;
+}
+
+.main__paragraph{
+    width: 70%;
+    opacity: .5;
+    margin-top: 3%;
+}
+
+.main__bottom{
+    width: 70%;
+    margin: 5% auto;
+    text-align: center;
+}
+
+.main__card{
+    width: 80%;
+    margin: auto;
+}
+.main__card__title{
+    opacity: .7;
+}
+
+.main__card__para{
+    opacity: .5;
+}
+
+.main__device{
+    width: 90%;
+    margin: 7% auto;
 }
 
 
@@ -244,6 +302,58 @@ body{
         width: 90%;
     }
 
+    /* page main */
+    .main__top{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+
+    }
+
+    .main__text{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .main__title{
+        width: 100%;
+        opacity: .7;
+        margin-top: 10%;
+    }
+    
+    .main__paragraph{
+        width: 100%;
+        opacity: .5;
+        margin-top: 3%;
+    }
+
+    .main__bottom{
+        width: 90%;
+        margin: 5% auto;
+        text-align: center;
+    }
+    
+    .main__card{
+        width: 90%;
+        margin: 10% auto;
+    }
+    .main__card__title{
+        opacity: .7;
+    }
+    
+    .main__card__para{
+        opacity: .5;
+    }
+    
+    .main__device{
+        width: 90%;
+        margin: auto;
+    }
 
 
 
@@ -268,7 +378,7 @@ body{
          display: grid;
          grid-template-columns: 1fr ;
          gap: 2rem;
-         margin-left: 13rem;
+         margin-left: 8rem;
          
       }
       
