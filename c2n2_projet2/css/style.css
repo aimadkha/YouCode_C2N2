@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+}
+
+.header{
+    background-image: url(/imgs/bg-header-desktop.png);
+    background-repeat: no-repeat;
+}
+
+.header__top{
+    width: 50%; 
+    margin: auto;
+    text-align: center;
+}
+
+.header__logo{
+    margin-top: 7rem;
+    margin-bottom: 4rem;
+}
+
+.header__title{
+    font-weight: 600;
+    opacity: .7;
+    margin-bottom: 1.7rem;
+    
+}
+
+.header__text{
+    line-height: 1.5;
+    opacity: .5;
+    margin-bottom: 1rem;
+}
+
+.header__button{
+    width: 90%;
+    /* margin: auto; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 1rem;
+    
+}
+
+.header__ios{
+    background-color: hsl(171, 66%, 44%);
+    width: 15rem;
+    height: 3rem;
+    border-radius: 2rem;
+    /* border: 0; */
+    cursor: pointer;
+    color: #fff;
+    
+}
+
+.header__mac{
+    background-color: hsl(233, 100%, 69%);
+    width: 15rem;
+    height: 3rem;
+    border-radius: 2rem;
+    /* border: 0; */
+    cursor: pointer;
+    color: #fff;
+}
+
+.header__bottom{
+    margin-top: 8.8rem;
+    opacity: .6;
+}
+
+
+.footer { 
+    width: auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 10rem;
+  }
+  
+  .supercharge-text   {
+    size: 3rem;
+    margin-top: 3rem;
+   }
+  
+   .supercharge-text  {
+     color: hsl(210, 10%, 33%);
+   }
+  
+  .text-supercharge p {
+    color:hsl(201, 11%, 66%) ;
+    margin-top: 2rem;
+  }
+  
+  .text-supercharge h1 {
+    color: hsl(210, 10%, 33%);
+   font-size:  2rem ;
+  }
+  
+  
+  .under {
+    display: flex;
+    margin-top: 5rem;
+    font-size: small;
+    justify-content: space-evenly;
+  }
+  
+  .under p {
+   color:hsl(201, 11%, 66%) ;
+   margin-top: 2rem;
+  }
+  .under h2 {
+  color: hsl(210, 10%, 33%);
+  margin-top: 2rem;
+  }
+  
+  
+  
+  .icon {
+    margin-top: 8rem;
+   display: flex;
+   justify-content: space-around;
+    
+  }
+  
+  .clipboard {
+    margin-top: 8rem;
+  }
+  
+  .clipboard p {
+    color:hsl(201, 11%, 66%) ;
+   margin-top: 2rem;
+  }
+  .clipboard h1 {
+    color: hsl(210, 10%, 33%);
+  }
+  
+  
+  .download {
+    margin-top: 8rem;
+    justify-content: space-between;
+  }
+  
+  .header-click1 .ios {  
+    font-weight: bold;
+    padding: 1rem 2rem;
+    background-color: hsl(171, 66%, 44%);
+    border-radius: 2rem;
+    margin-right: 1rem;
+    box-shadow: 0 2px 0  hsl(210, 10%, 33%);
+    color: hsl(210, 10%, 33%);
+    color: white;
+    text-decoration: none;
+  
+  }
+  
+  
+  .header-click1 .mac {
+    font-weight: bold;
+    padding: 1rem 2rem;
+    background-color:  hsl(233, 100%, 69%);
+    border-radius: 2rem;
+    margin-right: 1rem;
+    box-shadow: 0 2px 0  hsl(210, 10%, 33%);
+    color: white;
+    transition: all 0.3s;
+    text-decoration: none;
+  }
+  
+  
+  .footer-tenor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+    color:hsl(201, 11%, 66%) ;
+    font-size: 1rem;
+    
+  }
+    
+  
+  
+  .lastpart {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 7rem;
+    grid-template-rows: repeat(2, 70px);
+    background-color: hsl(0, 0%, 95%);
+  }
+  
+  .footericon img{
+   height: 4rem;
+   margin-top: 1.5rem;
+   justify-content: space-between;
+  }
+  .footer-icon img {
+    margin-top: 3.5rem ;
+  }
+  
+    
+  .footer-tenor .two {
+  color:hsl(171, 66%, 44%) ;
+  
+  
+  }
+
+  .footer-tenor .TR {
+    text-decoration: none;
+  }
+  .icontenor {
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  margin: auto;
+  }
+
+@media (max-width: 600px){
+    .header__top{
+        width: 90%; 
+        margin: auto;
+        text-align: center;
+    }
+    .header__button{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 2rem;
+    }
+    .header__ios{
+        background-color: hsl(171, 66%, 44%);
+        width: 90%;
+        margin-bottom: .5rem;
+    }
+    
+    .header__mac{
+        background-color: hsl(233, 100%, 69%);
+        width: 90%;
+    }
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .under {
+        display: block;
+        
+      }
+    
+      .icon {
+       
+         display: grid;
+         grid-template-columns: 1fr ;
+         gap: 2rem;
+         margin-left: 13rem;
+         
+      }
+      
+       .icon img {
+        margin: 1rem;
+      }
+    
+      
+       .clipboard {
+        font-size: 10px;
+      }
+    
+      .download {
+         display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+       
+      }
+      .download  .mac{
+         margin-top: 1rem;
+         width: 20rem;
+      }
+    
+      .download  .ios{
+        margin-top: 1rem;
+        width: 20rem;
+     }
+    
+     .lastpart {
+        display: block;
+    
+    }
+    
+    
+    .footer-tenor {
+      display: grid;
+      grid-template-columns: 1fr ;
+      gap: 2rem;
+      
+    }
+    
+    
+    .icontenor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    margin: auto;
+    padding-bottom: 2rem;
+    }
+    
+    .under {
+      display: grid;
+      grid-template-columns: 1fr ;
+      gap: 3rem;
+    }
+    
+}
